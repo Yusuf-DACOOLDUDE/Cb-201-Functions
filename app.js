@@ -1,9 +1,6 @@
-function greet (name) {
-    console.log("Hello, " + name)
+function half(num1) {
+    return num1 / 2
 }
 
-greet("Youtube")
-
-function add(num1, num2) {
-    return num1 + num2
-}
+const quotient = half(12)
+console.log(quotient);
